@@ -75,17 +75,17 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 
 PM_START_TEXT = """
-`ʜᴇʟʟᴏ` 🤗 `ɪ ᴀᴍ` [ꜰʟᴏʀᴇɴᴢᴀ](https://telegra.ph/file/16bf7f2e7ca1543cb7694.jpg) ` ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ`
+`ʜᴇʟʟᴏ` 🤗 `ɪ ᴀᴍ` [Baby girl](https://telegra.ph/file/16bf7f2e7ca1543cb7694.jpg) ` ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ`
 `ɪ ᴀᴍ ᴠᴇʀʏ ꜰᴀꜱᴛ ᴀɴᴅ  ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ  ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ  ꜰᴇᴀᴛᴜʀᴇꜱ ᴡʜɪᴄʜ ᴀ ᴏᴡɴᴇʀ ᴡɪʟʟ ʟᴏᴏᴋ ꜰᴏʀ  ꜰɪʟᴛᴇʀ ,ᴡᴀʀɴ ꜱʏꜱᴛᴇᴍ,ꜱᴀᴠᴇ ɴᴏᴛᴇꜱ, ꜰʟᴏᴏᴅ, ʙᴀɴ ᴀɴᴅ ᴍᴏʀᴇ!`
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="💕 ᴀᴅᴅ ꜰʟᴏʀᴇɴᴢᴀ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", url="http://t.me/Florenza_bot?startgroup=true"),
+            text="💕 ᴀᴅᴅ ʙᴀʙʏ ɢɪʀʟ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", url="http://t.me/BabyGirl_robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🔥ᴅᴇᴠꜱ", url=f"https://t.me/Florenza_Dev"),
+        InlineKeyboardButton(text="🔥ᴅᴇᴠꜱ", url=f"https://t.me/BabyGirl_Devs"),
         InlineKeyboardButton(
             text="ᴠᴄ ᴘʟᴀʏᴇʀ", url=f"https://telegra.ph/𝗕ooo-09-17-2"
         ),
@@ -491,7 +491,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *Florenza*
+            text=""" Hi..😻 I'm *ʙᴀʙʏ ɢɪʀʟ*
                  \nHere is the [🔥Source Code🔥](https://github.com/T5fr0ck5t4r/flozenzabot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
