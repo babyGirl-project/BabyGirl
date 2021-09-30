@@ -92,8 +92,7 @@ buttons = [
     [
         InlineKeyboardButton(text="⚡ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/desk_babygirl"),
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/babygirl_updates
-        ),
+            text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/babygirl_updates"),
     ],
     [
         InlineKeyboardButton(text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ⚙️", callback_data="help_back"),
